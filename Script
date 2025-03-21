@@ -28,7 +28,7 @@ function TPReturner()
         foundAnything = Site.nextPageCursor
     end
 
-    local chosenPlayerCount = math.random(6, 12) -- Número aleatório de jogadores no servidor
+    local chosenPlayerCount = math.random(6, 12)
     local bestServer = nil
 
     for _, v in pairs(Site.data) do
